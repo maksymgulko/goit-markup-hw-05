@@ -444,10 +444,8 @@ footer,
 
 .footer-feedback {
   display: flex;
-  align-items: center;
-  gap: 24px;
-  /* width: 453px;
-  height: 80px; */
+  flex-direction: column;
+  margin-left: 80px;
 }
 
 .feedback-form {
