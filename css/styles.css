@@ -451,7 +451,8 @@ footer,
 }
 
 .feedback-form {
-  margin-left: 80px;
+  display: flex;
+  gap: 24px;
 }
 
 .feedback-title {
