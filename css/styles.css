@@ -585,6 +585,9 @@ footer,
 
 .form-wrap {
   margin-bottom: 8px;
+  /* display: flex;
+  flex-direction: column;
+  gap: 8px; */
 }
 
 .modal-label {
@@ -598,6 +601,7 @@ footer,
 
 .modal-input-icon {
   position: relative;
+  margin-bottom: 8px;
 }
 
 .input-icon {
@@ -621,6 +625,9 @@ footer,
 }
 
 .modal-input:focus {
-  fill: #4d5ae5;
   border-color: #4d5ae5;
+}
+
+.modal-input:focus + .input-icon {
+  fill: #4d5ae5;
 }
