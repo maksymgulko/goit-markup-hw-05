@@ -647,14 +647,14 @@ footer,
 
 .policy {
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
 .privacy {
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   line-height: 1.33333;
@@ -668,6 +668,10 @@ footer,
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+.modal-checkbox:checked + .privacy {
+  background-color: #404bbf;
 }
 
 .modal-input:focus,
