@@ -565,6 +565,7 @@ footer,
 .modal-btn-close:hover,
 .modal-btn-close:focus {
   fill: #ffffff;
+  border: none;
 }
 
 .modal-title {
