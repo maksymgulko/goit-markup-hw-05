@@ -544,7 +544,6 @@ footer,
 .modal-btn-close {
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border: none;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -624,6 +623,18 @@ footer,
   height: 40px;
 }
 
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
+
+.modal-input:focus + .input-icon {
+  fill: #4d5ae5;
+}
+
+.comment-section {
+  margin-bottom: 16px;
+}
+
 .modal-comment {
   width: 100%;
   resize: none;
@@ -638,7 +649,11 @@ footer,
   height: 120px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  font-style: 12px;
+  font-size: 12px;
+}
+
+.modal-comment:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-checkbox-box {
