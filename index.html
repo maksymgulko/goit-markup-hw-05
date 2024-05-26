@@ -436,9 +436,22 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-btn-close" type="button">
-          <svg><use href="/images/icons.svg#icon-close-black-18dp"></use></svg>
+          <svg width="8" height="8" class="close-icon">
+            <use href="/images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label class="modal-label" for="user-name">Name</label>
+          <div class="modal-input-icon">
+            <input
+              type="text"
+              id="user-name"
+              name="user-name"
+              class="modal-input"
+            />
+          </div>
+        </form>
       </div>
     </div>
   </body>
